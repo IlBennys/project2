@@ -16,7 +16,7 @@ public class Archivio {
 
 	Libri l1 = new Libri(55545, "Un uomo sulla luna", 2023, "Valentina D'urbano", "Fantasy");
 	Libri l2 = new Libri(55588, "L'uomo mascherato", 2022, "Massimo", "Horror");
-	Libri l3 = new Libri(55599, "Il volo del gabbiano", 2021, "Massimo Troisi", "Biografia");
+	Libri l3 = new Libri(55599, "Il volo del gabbiano", 2021, "MassimoTroisi", "Biografia");
 	List<Libri> elencoLibri = new ArrayList<>();
 	aggiungiLibri(l1, elencoLibri);
 	aggiungiLibri(l2, elencoLibri);
