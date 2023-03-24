@@ -3,6 +3,7 @@ package CATALOGO_BIBLIOTECARIO;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintStream;
 
 import org.apache.commons.io.FileUtils;
 
@@ -11,7 +12,7 @@ public class Disco {
     public static void writeFile(Archivio archivio) throws IOException {
 	File myCatalogue = new File("archivio.txt");
 	FileWriter myPW = new FileWriter(myCatalogue);
-	myPW.print(archivio);
+	((PrintStream) myPW).print(archivio);
 	myPW.close();
     }
 
